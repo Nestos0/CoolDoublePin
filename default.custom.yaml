@@ -1,0 +1,6 @@
+patch:
+  "menu/page_size": 7
+  schema_list:
+    - schema: clover
+    - schema: double_pinyin_lingyue
+    - schema: luna_pinyin

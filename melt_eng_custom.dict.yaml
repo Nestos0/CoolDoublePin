@@ -1,0 +1,13 @@
+---
+name: melt_eng_custom
+version: "2021.07.11"
+sort: by_weight
+use_preset_vocabulary: false
+...
+emacs	emacs	100
+vim	vim	100
+neovim	neovim	100
+Emacs	Emacs	100
+EMACS	EMACS	100
+Neovim	Neovim	100
+VIM	VIM	100

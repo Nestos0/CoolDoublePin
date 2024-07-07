@@ -1,0 +1,11 @@
+
+name: clover
+version: "1"
+sort: by_weight
+
+import_tables:
+  - clover.base
+  - clover.phrase
+  - moegirl
+  - sogou_new_words
+  - melt_eng
