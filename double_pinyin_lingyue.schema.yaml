@@ -142,6 +142,10 @@ translator:
     - "xform/(^|[ '])e/$1G/"
     - "xform/(^|[ '])G/$1g/"
     - "xform/(^|[ '])a/$1j/"
+    - "xform/(^|[ '])d/$1D/"
+    - "xform/(^|[ '])s/$1S/"
+    - "xform/(^|[ '])S/$1d/"
+    - "xform/(^|[ '])D/$1s/"
     - xform/([jbpmfdtnljqx])b/$1iao/
     - xform/(\w)g/$1iu/
     - xform/([x])v/$1iu/
@@ -157,18 +161,14 @@ translator:
     - xform/([wfpgvzcbnkmihdsrult])t/$1eng/
     - xform/([y])t/$1i/
     - xform/([xqj])t/$1ia/
-    - xform/([nmbvczrftpwgiuhlk])f/$1en/
+    - xform/([nmbvczrftpwgiuhlkd])f/$1en/
     - xform/(\w)h/$1ang/
     - xform/([jqxnib])l/$1iang/
     - xform/(\w)z/$1ou/
     - xform/([dtgkhvurzcs])v/$1ui/
     - xform/(\w)m/$1ian/
-    - "xform/(^|[ '])d/$1D/"
-    - "xform/(^|[ '])s/$1S/"
-    - "xform/(^|[ '])S/$1d/"
-    - "xform/(^|[ '])D/$1s/"
     - xform/([xdtbnmqpijy])c/$1ing/
-    - xform/([^xdtbnmqpijy])c/$1ua/
+    - xform/([hcurv])c/$1ua/
     - xform/([gkhvurzcsl])x/$1uai/
     - xform/(\w)x/$1in/
     - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
@@ -182,7 +182,7 @@ translator:
     - "xform/(^|[ '])o(n)/$1an/"
     - "xform/(^|[ '])o(t)/$1en/"
     - xform/([krvhegu])d/$1uang/
-    - xform/([jynqx])d/$1ue/
+    - xform/([jynqxd])d/$1ue/
     - xform/([aoe])\1(\w)/$1$2/
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
