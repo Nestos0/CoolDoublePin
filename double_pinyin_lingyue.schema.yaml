@@ -144,6 +144,7 @@ translator:
     - "xform/(^|[ '])s/$1S/"
     - "xform/(^|[ '])S/$1d/"
     - "xform/(^|[ '])D/$1s/"
+    - xform/(\w)g/$1iu/
     - xform/(\w)h/$1ang/
     - "xform/(^|[ '])v/$1zh/"
     - "xform/(^|[ '])r/$1sh/"
@@ -151,7 +152,6 @@ translator:
     - "xform/(^|[ '])l/$1r/"
     - "xform/(^|[ '])i/$1l/"
     - xform/([jbpmfdtnljqx])b/$1iao/
-    - xform/(\w)g/$1iu/
     - xform/([x])v/$1iu/
     - xform/(\w)w/$1ei/
     - xform/([nx])d/$1ve/
