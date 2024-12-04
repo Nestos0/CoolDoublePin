@@ -166,7 +166,7 @@ translator:
     - xform/([y])t/$1i/
     - xform/([xqj])t/$1ia/
     - xform/([nmbvczrftpwgiuhlkd])f/$1en/
-    - xform/([jqxnib])l/$1iang/
+    - xform/([jqxnlb])l/$1iang/
     - xform/(\w)z/$1ou/
     - xform/([dtgkhvurzcs])v/$1ui/
     - xform/(\w)m/$1ian/
