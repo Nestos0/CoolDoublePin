@@ -172,7 +172,7 @@ translator:
     - xform/(\w)m/$1ian/
     - xform/([xdtbnmqpljy])c/$1ing/
     - xform/([hcurv])c/$1ua/
-    - xform/([gkhvurzcsl])x/$1uai/
+    - xform/([gkhvurzcs])x/$1uai/
     - xform/(\w)x/$1in/
     - xform/([dtnlgkhjqxyvurzcs])r/$1uan/
     - xform/([wrfpglystdhnzcvbkm])n/$1an/
