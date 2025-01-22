@@ -1,6 +1,7 @@
 patch:
   "menu/page_size": 7
   schema_list:
-    - schema: clover
-    - schema: double_pinyin_lingyue
-    - schema: luna_pinyin
+    - schema: japanese
+    - schema: rime_frost_double_pinyin_lingyue
+    - schema: rime_frost_double_pinyin_flypy
+    - schema: rime_frost

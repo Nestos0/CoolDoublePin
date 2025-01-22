@@ -1,0 +1,47 @@
+format:
+    - "xform/(^|[ '])e/$1G/"
+    - "xform/(^|[ '])G/$1g/"
+    - "xform/(^|[ '])a/$1j/"
+    - "xform/(^|[ '])d/$1D/"
+    - "xform/(^|[ '])s/$1S/"
+    - "xform/(^|[ '])S/$1d/"
+    - "xform/(^|[ '])D/$1s/"
+    - xform/([aoe])(\w)/0$2/
+    - xform/(\w)g/$1iu/
+    - xform/(\w)h/$1ang/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])u/$1ch/"
+    - "xform/(^|[ '])r/$1sh/"
+    - "xform/(^|[ '])l/$1r/"
+    - "xform/(^|[ '])i/$1l/"
+    - xform/0r/er/
+    - xform/([bdfjjlmnpqtx])b/$1iao/
+    - xform/(\w)n/$1an/
+    - xform/([x])v/$1iu/
+    - xform/(\w)w/$1ei/
+    - xform/([nx])d/$1ve/
+    - xform/(\w)q/$1un/
+    - xform/(\w)y/$1ao/
+    - xform/([cdghklnrrstuvz])o/$1uo/
+    - xform/(\w)p/$1ie/
+    - xform/([jqx])s/$1iong/
+    - xform/(\w)s/$1ong/
+    - xform/(\w)k/$1ai/
+    - xform/([xqj])t/$1ia/
+    - xform/(\w)t/$1eng/
+    - xform/(\w)f/$1en/
+    - xform/([bjlnqx])l/$1iang/
+    - xform/(\w)z/$1ou/
+    - xform/([cdghkrstuvz])v/$1ui/
+    - xform/(\w)m/$1ian/
+    - xform/([bdjlmnpqtxy])c/$1ing/
+    - xform/([chkruv])c/$1ua/
+    - xform/([cghkrsuvz])x/$1uai/
+    - xform/(\w)x/$1in/
+    - xform/([cdghijklnqrstuvxyz])r/$1uan/
+    - xform/([eghkruv])d/$1uang/
+    - xform/([djnqxy])d/$1ue/
+    - xform/([aeo])\1(\w)/$1$2/
+    - xform/([jqxy])v/$1u/
+    - xform/([ln])v/$1ü/
+    - xform/0(\w)/$1/

@@ -1,0 +1,12 @@
+# Rime table
+# coding: utf-8
+#@/db_name	cn_en_lingyue.txt
+#@/db_type	tabledb
+
+
+X光	Xguang
+X光	xguang
+X光片	Xguangpian
+X光片	xguangpian
+X射线	Xshexian
+X射线	xshexian

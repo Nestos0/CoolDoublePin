@@ -26,7 +26,7 @@ engine:
 #關閉標點符號轉換（對應symbols.yaml）    - punctuator
     - selector
     - navigator
-    - express_editor
+    - fluency_editor
   segmentors:
     - matcher
     - ascii_segmentor
@@ -34,6 +34,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - script_translator
     - table_translator
     - punct_translator
   filters:
@@ -44,7 +45,7 @@ speller:
   delimiter: " '"
   algebra:
 # 拼写规则的本质，是把字典按照规则改写，而不是把输入的按键码转写。
-    - derive/['\-_+,.]+//
+    - "derive/['\-_+,.]+//"
 # 把大小写混写的单词转写为全小写
     - derive/^(.+)$/\L$1/
 # 把小写的单词转写为全大写写

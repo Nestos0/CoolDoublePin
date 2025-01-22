@@ -1,0 +1,620 @@
+
+---
+name: test
+version: 'v0.1'
+sort: by_weight
+...
+
+# Mostly based on the Hepburn romanization system
+
+# Small forms
+ぁ	_a	99
+ぃ	_i	99
+ぅ	_u	99
+ぇ	_e	99
+ぉ	_o	99
+ゃ	_ya	99
+ゅ	_yu	99
+ょ	_yo	99
+ゎ	_wa	99
+ゕ	_ka	99
+ゖ	_ke	99
+っ	_tsu  99
+
+ァ	_a	99
+ィ	_i	99
+ゥ	_u	99
+ェ	_e	99
+ォ	_o	99
+ャ	_ya	99
+ュ	_yu	99
+ョ	_yo	99
+ヮ	_wa	99
+ヵ	_ka	99
+ヶ	_ke	99
+ッ	_tsu  99
+
+# Go  juuon 五十音
+あ	a 99
+い	i 99
+う	u 99
+え	e 99
+お	o 99
+ゔ	vu	99
+か	ka	99
+き	ki	99
+く	ku	99
+け	ke	99
+こ	ko	99
+が	ga	99
+ぎ	gi	99
+ぐ	gu	99
+げ	ge	99
+ご	go	99
+さ	sa	99
+し	shi	99
+す	su	99
+せ	se	99
+そ	so	99
+ざ	za	99
+じ	ji	99
+ず	zu	99
+ぜ	ze	99
+ぞ	zo	99
+た	ta	99
+ち	chi	99
+つ	tsu	99
+て	te	99
+と	to	99
+だ	da	99
+ぢ	ji	99
+づ	zu	99
+で	de	99
+ど	do	99
+な	na	99
+に	ni	99
+ぬ	nu	99
+ね	ne	99
+の	no	99
+は	ha	99
+ひ	hi	99
+ふ	fu	99
+へ	he	99
+ほ	ho	99
+ば	ba	99
+び	bi	99
+ぶ	bu	99
+べ	be	99
+ぼ	bo	99
+ぱ	pa	99
+ぴ	pi	99
+ぷ	pu	99
+ぺ	pe	99
+ぽ	po	99
+ま	ma	99
+み	mi	99
+む	mu	99
+め	me	99
+も	mo	99
+や	ya	99
+ゆ	yu	99
+よ	yo	99
+ら	ra	99
+り	ri	99
+る	ru	99
+れ	re	99
+ろ	ro	99
+わ	wa	99
+ゐ	wi	99
+ゑ	we	99
+を	wo	99
+ん	n 99
+
+ア	a
+イ	i
+ウ	u
+エ	e
+オ	o
+ヴ	vu
+カ	ka
+キ	ki
+ク	ku
+ケ	ke
+コ	ko
+ガ	ga
+ギ	gi
+グ	gu
+ゲ	ge
+ゴ	go
+サ	sa
+シ	shi
+ス	su
+セ	se
+ソ	so
+ザ	za
+ジ	ji
+ズ	zu
+ゼ	ze
+ゾ	zo
+タ	ta
+チ	chi
+ツ	tsu
+テ	te
+ト	to
+ダ	da
+ヂ	ji
+ヅ	zu
+デ	de
+ド	do
+ナ	na
+ニ	ni
+ヌ	nu
+ネ	ne
+ノ	no
+ハ	ha
+ヒ	hi
+フ	fu
+ヘ	he
+ホ	ho
+バ	ba
+ビ	bi
+ブ	bu
+ベ	be
+ボ	bo
+パ	pa
+ピ	pi
+プ	pu
+ペ	pe
+ポ	po
+マ	ma
+ミ	mi
+ム	mu
+メ	me
+モ	mo
+ヤ	ya
+ユ	yu
+ヨ	yo
+ラ	ra
+リ	ri
+ル	ru
+レ	re
+ロ	ro
+ワ	wa
+ヰ	wi
+ヱ	we
+ヲ	wo
+ン	n
+
+# Youon 拗音
+うぁ	wha
+うぃ	whi
+うぇ	whe
+うぉ	who
+ゔぁ	va
+ゔぃ	vi
+ゔぇ	ve
+ゔぉ	vo
+ゔゃ	vya
+ゔゅ	vyu
+ゔょ	vyo
+きゃ	kya
+きゅ	kyu
+きょ	kyo
+くぁ	kwa
+くぃ	kwi
+くぇ	kwe
+くぉ	kwo
+くゎ	kwa
+ぎゃ	gya
+ぎゅ	gyu
+ぎょ	gyo
+ぐぁ	gwa
+ぐぃ	gwi
+ぐぇ	gwe
+ぐぉ	gwo
+ぐゎ	gwa
+しぇ	she
+しゃ	sha
+しゅ	shu
+しょ	sho
+すぃ	si
+じぇ	je
+じゃ	ja
+じゅ	ju
+じょ	jo
+ずぃ	zi
+ちぇ	che
+ちゃ	cha
+ちゅ	chu
+ちょ	cho
+つぁ	tsa
+つぃ	tsi
+つぇ	tse
+つぉ	tso
+てぃ	ti
+てゃ	tya
+てゅ	tyu
+てょ	tyo
+とぅ	tu
+ぢぇ	je
+ぢゃ	ja
+ぢゅ	ju
+ぢょ	jo
+でぃ	di
+でゃ	dya
+でゅ	dyu
+でょ	dyo
+どぅ	du
+にゃ	nya
+にゅ	nyu
+にょ	nyo
+ひゃ	hya
+ひゅ	hyu
+ひょ	hyo
+ふぁ	fa
+ふぃ	fi
+ふぇ	fe
+ふぉ	fo
+ふゃ	fya
+ふゅ	fyu
+ふょ	fyo
+ほぅ	hu
+びゃ	bya
+びゅ	byu
+びょ	byo
+ぴゃ	pya
+ぴゅ	pyu
+ぴょ	pyo
+みゃ	mya
+みゅ	myu
+みょ	myo
+りゃ	rya
+りゅ	ryu
+りょ	ryo
+
+ウァ	wha
+ウィ	whi
+ウェ	whe
+ウォ	who
+ヴァ	va
+ヴィ	vi
+ヴェ	ve
+ヴォ	vo
+ヴャ	vya
+ヴュ	vyu
+ヴョ	vyo
+キャ	kya
+キュ	kyu
+キョ	kyo
+クァ	kwa
+クィ	kwi
+クェ	kwe
+クォ	kwo
+クヮ	kwa
+ギャ	gya
+ギュ	gyu
+ギョ	gyo
+グァ	gwa
+グィ	gwi
+グェ	gwe
+グォ	gwo
+グヮ	gwa
+シェ	she
+シャ	sha
+シュ	shu
+ショ	sho
+スィ	si
+ジェ	je
+ジャ	ja
+ジュ	ju
+ジョ	jo
+ズィ	zi
+チェ	che
+チャ	cha
+チュ	chu
+チョ	cho
+ツァ	tsa
+ツィ	tsi
+ツェ	tse
+ツォ	tso
+ティ	ti
+テャ	tya
+テュ	tyu
+テョ	tyo
+トゥ	tu
+ヂェ	je
+ヂャ	ja
+ヂュ	ju
+ヂョ	jo
+ディ	di
+デャ	dya
+デュ	dyu
+デョ	dyo
+ドゥ	du
+ニャ	nya
+ニュ	nyu
+ニョ	nyo
+ヒャ	hya
+ヒュ	hyu
+ヒョ	hyo
+ファ	fa
+フィ	fi
+フェ	fe
+フォ	fo
+フャ	fya
+フュ	fyu
+フョ	fyo
+ホゥ	hu
+ビャ	bya
+ビュ	byu
+ビョ	byo
+ピャ	pya
+ピュ	pyu
+ピョ	pyo
+ミャ	mya
+ミュ	myu
+ミョ	myo
+リャ	rya
+リュ	ryu
+リョ	ryo
+
+# Sokuon 促音
+っゔ	vvu
+っか	kka
+っき	kki
+っく	kku
+っけ	kke
+っこ	kko
+っが	gga
+っぎ	ggi
+っぐ	ggu
+っげ	gge
+っご	ggo
+っさ	ssa
+っし	sshi
+っす	ssu
+っせ	sse
+っそ	sso
+っざ	zza
+っじ	jji
+っず	zzu
+っぜ	zze
+っぞ	zzo
+った	tta
+っち	tchi
+っつ	ttsu
+って	tte
+っと	tto
+っだ	dda
+っぢ	jji
+っづ	zzu
+っで	dde
+っど	ddo
+っは	hha
+っひ	hhi
+っふ	ffu
+っへ	hhe
+っほ	hho
+っば	bba
+っび	bbi
+っぶ	bbu
+っべ	bbe
+っぼ	bbo
+っぱ	ppa
+っぴ	ppi
+っぷ	ppu
+っぺ	ppe
+っぽ	ppo
+っら	rra
+っり	rri
+っる	rru
+っれ	rre
+っろ	rro
+
+ッヴ	vvu
+ッカ	kka
+ッキ	kki
+ック	kku
+ッケ	kke
+ッコ	kko
+ッガ	gga
+ッギ	ggi
+ッグ	ggu
+ッゲ	gge
+ッゴ	ggo
+ッサ	ssa
+ッシ	sshi
+ッス	ssu
+ッセ	sse
+ッソ	sso
+ッザ	zza
+ッジ	jji
+ッズ	zzu
+ッゼ	zze
+ッゾ	zzo
+ッタ	tta
+ッチ	tchi
+ッツ	ttsu
+ッテ	tte
+ット	tto
+ッダ	dda
+ッヂ	jji
+ッヅ	zzu
+ッデ	dde
+ッド	ddo
+ッハ	hha
+ッヒ	hhi
+ッフ	ffu
+ッヘ	hhe
+ッホ	hho
+ッバ	bba
+ッビ	bbi
+ッブ	bbu
+ッベ	bbe
+ッボ	bbo
+ッパ	ppa
+ッピ	ppi
+ップ	ppu
+ッペ	ppe
+ッポ	ppo
+ッラ	rra
+ッリ	rri
+ッル	rru
+ッレ	rre
+ッロ	rro
+
+# Youon with sokuon
+っゔぁ	vva
+っゔぃ	vvi
+っゔぇ	vve
+っゔぉ	vvo
+っゔゃ	vvya
+っゔゅ	vvyu
+っゔょ	vvyo
+っきゃ	kkya
+っきゅ	kkyu
+っきょ	kkyo
+っくぁ	kkwa
+っくぃ	kkwi
+っくぇ	kkwe
+っくぉ	kkwo
+っくゎ	kkwa
+っぎゃ	ggya
+っぎゅ	ggyu
+っぎょ	ggyo
+っぐぁ	ggwa
+っぐぃ	ggwi
+っぐぇ	ggwe
+っぐぉ	ggwo
+っぐゎ	ggwa
+っしぇ	sshe
+っしゃ	ssha
+っしゅ	sshu
+っしょ	ssho
+っすぃ	ssi
+っじぇ	jje
+っじゃ	jja
+っじゅ	jju
+っじょ	jjo
+っずぃ	zzi
+っちぇ	tche
+っちゃ	tcha
+っちゅ	tchu
+っちょ	tcho
+っつぁ	ttsa
+っつぃ	ttsi
+っつぇ	ttse
+っつぉ	ttso
+ってぃ	tti
+ってゃ	ttya
+ってゅ	ttyu
+ってょ	ttyo
+っとぅ	ttu
+っぢぇ	jje
+っぢゃ	jja
+っぢゅ	jju
+っぢょ	jjo
+っでぃ	ddi
+っでゃ	ddya
+っでゅ	ddyu
+っでょ	ddyo
+っどぅ	ddu
+っひゃ	hhya
+っひゅ	hhyu
+っひょ	hhyo
+っふぁ	ffa
+っふぃ	ffi
+っふぇ	ffe
+っふぉ	ffo
+っふゃ	ffya
+っふゅ	ffyu
+っふょ	ffyo
+っほぅ	hhu
+っびゃ	bbya
+っびゅ	bbyu
+っびょ	bbyo
+っぴゃ	ppya
+っぴゅ	ppyu
+っぴょ	ppyo
+っりゃ	rrya
+っりゅ	rryu
+っりょ	rryo
+
+ッヴァ	vva
+ッヴィ	vvi
+ッヴェ	vve
+ッヴォ	vvo
+ッヴャ	vvya
+ッヴュ	vvyu
+ッヴョ	vvyo
+ッキャ	kkya
+ッキュ	kkyu
+ッキョ	kkyo
+ックァ	kkwa
+ックィ	kkwi
+ックェ	kkwe
+ックォ	kkwo
+ックヮ	kkwa
+ッギャ	ggya
+ッギュ	ggyu
+ッギョ	ggyo
+ッグァ	ggwa
+ッグィ	ggwi
+ッグェ	ggwe
+ッグォ	ggwo
+ッグヮ	ggwa
+ッシェ	sshe
+ッシャ	ssha
+ッシュ	sshu
+ッショ	ssho
+ッスィ	ssi
+ッジェ	jje
+ッジャ	jja
+ッジュ	jju
+ッジョ	jjo
+ッズィ	zzi
+ッチェ	tche
+ッチャ	tcha
+ッチュ	tchu
+ッチョ	tcho
+ッツァ	ttsa
+ッツィ	ttsi
+ッツェ	ttse
+ッツォ	ttso
+ッティ	tti
+ッテャ	ttya
+ッテュ	ttyu
+ッテョ	ttyo
+ットゥ	ttu
+ッヂェ	jje
+ッヂャ	jja
+ッヂュ	jju
+ッヂョ	jjo
+ッディ	ddi
+ッデャ	ddya
+ッデュ	ddyu
+ッデョ	ddyo
+ッドゥ	ddu
+ッヒャ	hhya
+ッヒュ	hhyu
+ッヒョ	hhyo
+ッファ	ffa
+ッフィ	ffi
+ッフェ	ffe
+ッフォ	ffo
+ッフャ	ffya
+ッフュ	ffyu
+ッフョ	ffyo
+ッホゥ	hhu
+ッビャ	bbya
+ッビュ	bbyu
+ッビョ	bbyo
+ッピャ	ppya
+ッピュ	ppyu
+ッピョ	ppyo
+ッリャ	rrya
+ッリュ	rryu
+ッリョ	rryo
+
+アイアンと	a i a n to
+あいさん	a i sa n
